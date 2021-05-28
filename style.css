@@ -1,0 +1,69 @@
+
+
+
+header{
+    margin-left: 40%;
+    margin-right: 40%;
+    font-family: Arial, roboto, sans-serif;
+    text-align: center;
+}
+
+.all-cards{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    fl
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%;
+    margin: 1rem;
+  }
+
+  .shopping{
+      width: 100%;
+  }
+
+  .card-down{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      padding: 1em;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 0 ;
+  }
+
+  h5{
+      margin-bottom: 0;
+  }
+
+  .container p{
+      margin-top: 0%;
+      padding: 3px;
+  }
+
+  button{
+      background-color: transparent;
+      border: 1px solid;
+      border-radius: 3px;
+  }
+
+  .heart-plus{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin:0;
+  }
